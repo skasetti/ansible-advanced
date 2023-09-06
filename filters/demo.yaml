@@ -23,4 +23,4 @@
 
   - name: split
     debug:
-      msg: "{{ Greeting | split(",") }}"
+      msg: "{{ Greeting | split(',') }}"
