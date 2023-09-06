@@ -1,5 +1,6 @@
 - name: understand facts
   hosts: centos:ubuntu #all
+  become: yes
   tasks:
   - name: print all the facts
     ansible.builtin.debug:
