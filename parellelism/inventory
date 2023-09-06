@@ -1,0 +1,11 @@
+[nginx]
+172.31.43.200
+172.31.33.107
+172.31.32.237
+172.31.34.78
+172.31.39.163
+172.31.33.68
+
+[nginx:vars]
+ansible_user=centos
+ansible_ssh_pass=DevOps321
